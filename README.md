@@ -1,8 +1,8 @@
 # Arduino Fightstick
-* [Introduction](Introduction)
-* [Parts List](Parts-List)
-* [Programming Environment & Libraries](Programming-Environment-&-Libraries)
-* [Miscellaneous Notes From Development](Miscellaneous-Notes-From-Development)
+* [Introduction](https://github.com/shinrobu/Arduino-Fightstick/edit/main/README.md#introduction)
+* [Parts List](https://github.com/shinrobu/Arduino-Fightstick/edit/main/README.md#parts-list)
+* [Programming Environment & Libraries](https://github.com/shinrobu/Arduino-Fightstick/edit/main/README.md#programming-environment--libraries)
+* [Miscellaneous Notes From Development](https://github.com/shinrobu/Arduino-Fightstick/edit/main/README.md#miscellaneous-notes-from-development)
 
 ## Introduction
 This is a class project to create a game controller with an arcade-style button layout, colloquially known as a "fightstick." Created using [Alan Chatham's UnoJoy library](https://github.com/AlanChatham/UnoJoy), and an Arduino Mega 2560 Rev3.
