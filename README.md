@@ -1,4 +1,6 @@
 # Arduino Fightstick
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus)
 * [Introduction](https://github.com/shinrobu/Arduino-Fightstick#introduction)
 * [Parts List](https://github.com/shinrobu/Arduino-Fightstick#parts-list)
 * [Programming Environment & Libraries](https://github.com/shinrobu/Arduino-Fightstick/#programming-environment--libraries)
