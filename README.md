@@ -32,6 +32,6 @@ This was coded in the 1.8.19 Arduino IDE. Uses [Alan Chatham's UnoJoy library](h
   *  "Regular" Arduino mode, in which you can program the Arduino and upload code to it
   *  DFU mode, which is used to reprogram the communications chip, which will allow us to turn the Arduino into a game controller
   *  Controller mode, which is when the Arduino is solely being used as a controller. **You cannot program the Arduino in this state.**
-  *  To go from regular mode to controller mode & vice versa, you **must put the Arduino in DFU mode first.** Follow [this link](https://support.arduino.cc/hc/en-us/articles/4410804625682-Set-a-board-to-DFU-mode) or the above linked UnoJoy README.md for more info on programming an Arduino in DFU mode.
+  *  To go from regular mode to controller mode & vice versa, you **must put the Arduino in DFU mode first.** Follow [this link](https://support.arduino.cc/hc/en-us/articles/4410804625682-Set-a-board-to-DFU-mode) or the above linked UnoJoy README.md for more info on setting an Arduino to DFU mode.
 
 * If you are going to configure [MegaJoy.h](MegaJoy.h), do **NOT** change the order of or delete any of the member variables inside the megaJoyControllerData_t type definition, except for the analog sticks. The library has those data members set up in that order for reasons that we don't know; but messing with those variables & the order of them creates a lot of issues in controller mode. Trust us, we know. Renaming the variables is absolutely fine, though.
