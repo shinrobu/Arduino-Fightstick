@@ -5,6 +5,7 @@
 * [Parts List](https://github.com/shinrobu/Arduino-Fightstick#parts-list)
 * [Programming Environment & Libraries](https://github.com/shinrobu/Arduino-Fightstick/#programming-environment--libraries)
 * [Miscellaneous Notes From Development](https://github.com/shinrobu/Arduino-Fightstick/#miscellaneous-notes-from-development)
+* [Credits](https://github.com/shinrobu/Arduino-Fightstick/#credits)
 
 ## Introduction
 This is a class project to create a game controller with an arcade-style button layout, colloquially known as a "fightstick." Created using [Alan Chatham's UnoJoy library](https://github.com/AlanChatham/UnoJoy), and an Arduino Mega 2560 Rev3.
@@ -35,3 +36,6 @@ This was coded in the 1.8.19 Arduino IDE. Uses [Alan Chatham's UnoJoy library](h
   *  To go from regular mode to controller mode & vice versa, you **must put the Arduino in DFU mode first.** Follow [this link](https://support.arduino.cc/hc/en-us/articles/4410804625682-Set-a-board-to-DFU-mode) or the above linked UnoJoy README.md for more info on setting an Arduino to DFU mode.
 
 * If you are going to configure [MegaJoy.h](MegaJoy.h), do **NOT** change the order of or delete any of the member variables inside the megaJoyControllerData_t type definition, except for the analog sticks. The library has those data members set up in that order for reasons that we don't know; but messing with those variables & the order of them creates a lot of issues in controller mode. Trust us, we know. Renaming the variables is absolutely fine, though.
+
+## Credits
+Kevin Ly, Rob Ranit, Keenan Tan, and Garrett Wong
