@@ -8,6 +8,8 @@
 * [Credits](https://github.com/shinrobu/Arduino-Fightstick/#credits)
 
 ## Introduction
+![boardpic](https://github.com/user-attachments/assets/12ce91f8-b2c2-4284-9261-fe6883903a2b)
+
 This is a class project to create a game controller with an arcade-style button layout, colloquially known as a "fightstick." Created using [Alan Chatham's UnoJoy library](https://github.com/AlanChatham/UnoJoy), and an Arduino Mega 2560 Rev3.
 
 Our fightstick has an LCD screen display (QAPASS 1602A) as well, for an extra feature to practice with. This is used as to display the buttons currently being pressed on the controller. However, we had to implement a 7ms delay to make the LCD screen actually readable. This was the closest value we could compromise with to make the controller as responsive as possible while making the LCD readable. 
